@@ -77,19 +77,19 @@ public class FacadeTest {
         Assert.assertEquals(1, (int) c1.getId());
     }
 
-//    @Test
-//    public void testGetAllCustomers() {
-//        List<Customer> allCustomers = facade.getAllCustomers();
-//        Assert.assertEquals(2, (int) allCustomers.size());
-//        for (Customer customer : allCustomers) {
-//            System.out.println(customer.getName());
-//        }
-//    }
-
     @Test
-    public void testCreateOrder() {
-        
-    
+    public void testGetAllCustomers() {
+        List<Customer> allCustomers = facade.getAllCustomers();
+        Assert.assertEquals(2, (int) allCustomers.size());
+        for (Customer customer : allCustomers) {
+            System.out.println(customer.getName());
+        }
     }
+
+//    @Test
+//    public void testCreateOrder() {
+//        
+//    
+//    }
 
 }
